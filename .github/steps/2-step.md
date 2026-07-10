@@ -13,7 +13,7 @@ To see how Code Scanning works, we will introduce a vulnerability into the `rout
    <img width="500" alt="edit button" src="https://github.com/saranya29-9/skills-introduction-to-codeql/blob/main/.github/images/edit-button.png?raw=true"/>
 
 1. Navigate to about **line 16** and modify it to the below.
-
+"SELECT * FROM books WHERE name LIKE '%" + name + "%'"
    ```py
    "SELECT * FROM books WHERE name LIKE '%" + name + "%'"
    ```
